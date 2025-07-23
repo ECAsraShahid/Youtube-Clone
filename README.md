@@ -12,18 +12,7 @@ This is a basic **YouTube homepage clone** built using **HTML and CSS**, inspire
 
 ## 📁 Project Structure
 
-youtube-clone/
-├── youtube-video.html
-├── CSS Styles/
-│ ├── body.css
-│ ├── header.css
-│ └── sidebar.css
-├── Channel Picture/
-│ └── (channel profile images)
-├── icons/
-│ └── (SVG icon images)
-├── Thumbnails/
-│ └── (video thumbnail images)
+<pre> ## 📁 Project Structure ``` youtube-clone/ ├── youtube-video.html ├── CSS Styles/ │ ├── body.css │ ├── header.css │ └── sidebar.css ├── Channel Picture/ │ └── (channel profile images) ├── icons/ │ └── (SVG icon images) ├── Thumbnails/ │ └── (video thumbnail images) ``` </pre>
 
 ## 🔧 How to Run
 
