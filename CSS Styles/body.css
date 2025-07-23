@@ -1,0 +1,158 @@
+body{
+    padding-top: 64px;
+    padding-left: 112px;
+    padding-right: 22px;
+    padding-bottom: 38px;
+    background-color: rgb(241, 241, 241);
+    font-family: Roboto,Verdana,Arial;
+    
+}
+p{
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.title-link{
+    text-decoration: none;
+    color: black;
+}
+.video-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 52px;
+    padding-top: 30px;
+   
+    
+}
+@media(max-width:1080px) {
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(min-width:1081px) and (max-width:1379px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media(min-width:1380px) {
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+.video-thumbnail-image{
+  width:100%;
+  cursor:pointer;
+}
+.thumbnail-container{
+    position:relative;
+}
+.video-pic-test{
+    margin-top: 11px;
+    display:grid;
+    grid-template-columns: 45px 1fr;
+   
+}
+
+.video-timeline{
+    background-color: black;
+    font-family:Roboto,Verdana,Arial;
+    color:white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 500;
+    margin-right: 5px;
+    margin-bottom: 13px;
+    font-size: 15px;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 0;
+    right:0;
+
+}
+.channel-profile-picture{
+    height:45px;
+    width:45px;
+    border-radius: 100%;
+    
+ }
+ 
+.video-information{
+    margin-left: 15px;
+  
+}
+.video-title{
+    font-size: 17.5px;
+    font-weight:500;
+    line-height: 26px;
+    cursor:pointer;
+}
+@media(min-width:1000px){
+    .video-title{
+        font-size: 17.5px;
+        line-height: 25px;
+    }
+}
+.youtuber-name{
+    color:rgb(112, 112, 112);
+    margin-top: 12.5px;
+    font-size: 15px;
+    cursor:pointer;
+}
+.video-views{
+    color:rgb(112, 112, 112);
+    margin-top: 5px;
+    font-size: 15px;
+}
+@media(min-width:1000px){
+    .youtuber-name,.video-views{
+        font-size: 15px;
+    }
+}
+.channel-profile-picture-container{
+    height:45px;
+    position: relative;
+ 
+}
+.profile-tooltip{
+    padding-left: 15px;
+    width: 260px;
+    height: 80px;
+    display:flex;
+    align-items: center;
+    position: absolute;
+    top:60px;
+    background-color: white;
+    border-color: grey;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgb(173, 171, 171);
+    opacity: 0;
+    pointer-events:none;
+    transition: opacity 0.15s;
+    z-index: 300;
+}
+.channel-profile-picture-container:hover .profile-tooltip{
+    opacity:1;
+}
+.tooltip-picture{
+    height: 55px;
+    width:55px;
+    border-radius: 100%;
+    margin-right: 12px;
+   
+}
+.you-name{
+    font-weight: 600;
+    font-size: large;
+    margin-bottom: 4px;
+    
+}
+.subscribers{
+    color:rgb(77, 72, 72);
+    
+}
+
